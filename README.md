@@ -26,9 +26,12 @@ drwxr-xr-x  8 mike mike   4096 Dec 31 10:47 .git/
 mike@cube:~/Projects/wordnet-cleanup$ 
 ```
 
-# Usage
+## Usage
 
 * Download either the full Wordnet package, or just the database files from https://wordnet.princeton.edu/download/current-version.
 * Move the `dict` directory into the directory where this repository was cloned to.
 * Run the script using `./cleanup.sh`
 
+## Important Note
+
+I don't intend to maintain this after the initial commit(s). If you find that this doesn't work with future releases of Wordnet I probably won't respond to requests for it to be updated.
